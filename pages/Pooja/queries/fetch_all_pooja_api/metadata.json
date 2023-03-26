@@ -54,8 +54,8 @@
         "sortBy": {
           "data": [
             {
-              "column": "",
-              "order": "Ascending"
+              "column": "PoojaDate",
+              "order": "Descending"
             }
           ]
         },
