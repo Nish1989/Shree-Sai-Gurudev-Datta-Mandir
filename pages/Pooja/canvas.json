@@ -215,8 +215,13 @@
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "Button7",
-                      "onClick": "{{delete_pooja_data_api.run(() => fetch_pooja_date_api.run(), () => {})}}",
+                      "onClick": "{{delete_pooja_data_api.run(() => fetch_pooja_date_api.run(()=> closeModal('Modal1')), () => {})}}\n",
                       "buttonColor": "#dc2626",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -291,14 +296,11 @@
                         },
                         {
                           "key": "borderRadius"
-                        },
-                        {
-                          "key": "text"
                         }
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Are you sure you want to delete this Pooja schedule? {{Table1.triggeredRowIndex}}",
+                      "text": "Are you sure you want to delete this Pooja schedule?",
                       "key": "o12031mqi3",
                       "isDeprecated": false,
                       "rightColumn": 60,
