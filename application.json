@@ -11,6 +11,10 @@
     {
       "id": "Pooja",
       "isDefault": false
+    },
+    {
+      "id": "PoojaAll",
+      "isDefault": false
     }
   ],
   "viewMode": false,
