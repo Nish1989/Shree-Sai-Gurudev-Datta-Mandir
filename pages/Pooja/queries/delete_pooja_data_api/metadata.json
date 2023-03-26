@@ -43,7 +43,7 @@
           "data": ""
         },
         "rowIndex": {
-          "data": "{{Table1.selectedRow.rowIndex}}"
+          "data": "{{Table1.triggeredRow.rowIndex}}"
         },
         "rowObjects": {
           "data": "{{\n\t{...fetch_user_api.data[appsmith.URL.queryParams.userID], \n\t\t\"Phone\": UpdatePhoneInput.text,\n    \"Email\": UpdateEmailInput.text,\n    \"Gotra\": UpdateGotraInput.text,\n    \"Name\": UpdateDevotee_1_Input.text,\n    \"Nakshatra\": UpdateNakshatra_1_Input.text,\n    \"Name2\": UpdateDevotee_2_Input.text,\n    \"Nakshatra2\": UpdateNakshatra_2_Input.text,\n    \"Name3\": UpdateDevotee_3_Input.text,\n    \"Nakshatra3\": UpdateNakshatra_3_Input.text,\n    \"Name4\": UpdateDevotee_4_Input.text,\n    \"Nakshatra4\": UpdateNakshatra_4_Input.text }\n}}"
@@ -94,7 +94,7 @@
     "messages": [],
     "jsonPathKeys": [
       "\n\t{...fetch_user_api.data[appsmith.URL.queryParams.userID], \n\t\t\"Phone\": UpdatePhoneInput.text,\n    \"Email\": UpdateEmailInput.text,\n    \"Gotra\": UpdateGotraInput.text,\n    \"Name\": UpdateDevotee_1_Input.text,\n    \"Nakshatra\": UpdateNakshatra_1_Input.text,\n    \"Name2\": UpdateDevotee_2_Input.text,\n    \"Nakshatra2\": UpdateNakshatra_2_Input.text,\n    \"Name3\": UpdateDevotee_3_Input.text,\n    \"Nakshatra3\": UpdateNakshatra_3_Input.text,\n    \"Name4\": UpdateDevotee_4_Input.text,\n    \"Nakshatra4\": UpdateNakshatra_4_Input.text }\n",
-      "Table1.selectedRow.rowIndex"
+      "Table1.triggeredRow.rowIndex"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
