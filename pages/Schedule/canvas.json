@@ -2023,7 +2023,7 @@
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "showStepArrows": true,
                       "isVisible": true,
-                      "label": "Donation ",
+                      "label": "Amount ",
                       "allowCurrencyChange": false,
                       "version": 1,
                       "parentId": "sm5oxs02pw",
