@@ -246,6 +246,12 @@
                 },
                 {
                   "key": "primaryColumns.AmountPaid.computedValue"
+                },
+                {
+                  "key": "primaryColumns.customColumn1.borderRadius"
+                },
+                {
+                  "key": "primaryColumns.customColumn1.boxShadow"
                 }
               ],
               "leftColumn": 1,
@@ -283,7 +289,7 @@
                 }
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "columnUpdatedAt": 1679804136522,
+              "columnUpdatedAt": 1679809526918,
               "primaryColumnId": "Phone",
               "defaultSelectedRowIndices": [
                 0
@@ -305,7 +311,8 @@
                 "Name3",
                 "Nakshatra3",
                 "Name4",
-                "Nakshatra4"
+                "Nakshatra4",
+                "customColumn1"
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
@@ -322,7 +329,11 @@
               },
               "parentRowSpace": 10,
               "hideCard": false,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "primaryColumns.customColumn1.onClick"
+                }
+              ],
               "primaryColumns": {
                 "Email": {
                   "allowCellWrapping": false,
@@ -747,6 +758,40 @@
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
+                },
+                "customColumn1": {
+                  "allowCellWrapping": false,
+                  "index": 10,
+                  "width": 150,
+                  "originalId": "customColumn1",
+                  "id": "customColumn1",
+                  "alias": "Action",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "button",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": true,
+                  "label": "Action",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "",
+                  "sticky": "",
+                  "validation": {},
+                  "buttonStyle": "rgb(3, 179, 101)",
+                  "labelColor": "#FFFFFF",
+                  "buttonColor": "#ef4444",
+                  "borderRadius": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
+                  "boxShadow": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( 'none'))}}",
+                  "customAlias": "",
+                  "buttonLabel": "Delete",
+                  "onClick": "{{delete_pooja_data_api.run(() => fetch_pooja_date_api.run(), () => {})}}"
                 }
               },
               "key": "u6xxauucxz",
