@@ -289,7 +289,7 @@
                 }
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "columnUpdatedAt": 1679809526918,
+              "columnUpdatedAt": 1679809757275,
               "primaryColumnId": "Phone",
               "defaultSelectedRowIndices": [
                 0

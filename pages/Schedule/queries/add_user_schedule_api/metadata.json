@@ -43,7 +43,7 @@
           "data": ""
         },
         "rowObjects": {
-          "data": " {\n    \"Phone\": {{UpdatePhoneInput.text}},\n    \"Email\": {{UpdateEmailInput.text}},\n    \"Gotra\": \"{{UpdateGotraInput.text}}\",\n    \"Name\": \"{{UpdateDevotee_1_Input.text}}\",\n    \"Nakshatra\": \"{{UpdateNakshatra_1_Input.text}}\",\n    \"Name2\": \"{{UpdateDevotee_2_Input.text}}\",\n    \"Nakshatra2\": \"{{UpdateNakshatra_2_Input.text}}\",\n    \"Name3\": \"{{UpdateDevotee_3_Input.text}}\",\n    \"Nakshatra3\": \"{{UpdateNakshatra_3_Input.text}}\",\n    \"Name4\": \"{{UpdateDevotee_4_Input.text}}\",\n    \"Nakshatra4\": \"{{UpdateNakshatra_4_Input.text}}\",\n\t  \"PoojaDate\": \"{{ScheduleDatePicker.formattedDate}}\",\n    \"PoojaService\": \"{{SchedulePoojaService.text}}\",\n    \"AmountPaid\": \"{{ScheduleCurrencyInput.text}}\"\n  }"
+          "data": " {\n    \"PoojaDate\": \"{{ScheduleDatePicker.formattedDate}}\",\n    \"PoojaService\": \"{{SchedulePoojaService.text}}\",\n    \"AmountPaid\": \"{{ScheduleCurrencyInput.text}}\",\n\t \"Phone\": {{UpdatePhoneInput.text}},\n    \"Email\": {{UpdateEmailInput.text}},\n    \"Gotra\": \"{{UpdateGotraInput.text}}\",\n    \"Name\": \"{{UpdateDevotee_1_Input.text}}\",\n    \"Nakshatra\": \"{{UpdateNakshatra_1_Input.text}}\",\n    \"Name2\": \"{{UpdateDevotee_2_Input.text}}\",\n    \"Nakshatra2\": \"{{UpdateNakshatra_2_Input.text}}\",\n    \"Name3\": \"{{UpdateDevotee_3_Input.text}}\",\n    \"Nakshatra3\": \"{{UpdateNakshatra_3_Input.text}}\",\n    \"Name4\": \"{{UpdateDevotee_4_Input.text}}\",\n    \"Nakshatra4\": \"{{UpdateNakshatra_4_Input.text}}\"\n  }"
         },
         "sheetName": {
           "data": "Pooja Sheet"
